@@ -5,7 +5,7 @@ import numpy as np
 
 st.title(" An app that predicts penguin species")
 
-df=pd.read_csv("data/penguins.csv")
+df=pd.read_csv("penguins.csv")
 st.write(df.tail())
 st.write(df['species'].unique())
 st.write(df['island'].unique())
